@@ -1,36 +1,92 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Qantas Hotels
+
+This is a NextJS application for displaying and sorting Qantas Hotels.
+
+## Features
+
+- Display a list of hotels with details including names, ratings, prices, and savings
+- Sort hotels by price (high to low or low to high)
+- Visually distinguish between star-rated and self-rated hotels
+- Responsive design for mobile, tablet, and desktop screens
+- Accessibility-friendly UI components
+
+## Tech Stack
+
+- **Framework**: Next.js (React-based)
+- **Styling**: Tailwind CSS
+- **Code Quality**: ESLint, TypeScript, Prettier
+- **Testing**: Jest, React Testing Library
 
 ## Getting Started
 
-First, run the development server:
+First, install the dependencies:
+
+```bash
+npm install
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+app/
+├── __tests__/          # Tests for page components
+├── components/         # React components
+│   ├── __tests__/      # Tests for components
+│   ├── HotelCard.tsx   # Hotel card component
+│   ├── HotelList.tsx   # List of hotels with sorting
+│   ├── Icons.tsx       # Rating icons (star/circle)
+│   └── SortDropdown.tsx# Sorting dropdown component
+├── services/           # Services for data fetching
+├── types/              # TypeScript type definitions
+├── layout.tsx          # Main layout component
+└── page.tsx            # Main page component
+```
 
-## Learn More
+## Testing
 
-To learn more about Next.js, take a look at the following resources:
+The application includes comprehensive tests for all components:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Unit Tests**: Test individual components functionality
+- **Snapshot Tests**: Ensure UI consistency
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Run the tests with:
 
-## Deploy on Vercel
+```bash
+npm test
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Run tests with coverage report:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+npm run test:coverage
+```
+
+## Deployment
+
+The application can be deployed to any platform that supports Next.js, such as Vercel, Netlify, or AWS Amplify.
+
+To build the application for production:
+
+```bash
+npm run build
+```
+
+To start the dev server:
+
+```bash
+npm run dev
+```
+
+To start the production server:
+
+```bash
+npm start
+```
