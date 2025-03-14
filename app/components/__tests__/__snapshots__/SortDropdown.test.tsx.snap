@@ -6,7 +6,7 @@ exports[`SortDropdown Component renders correctly with default props 1`] = `
     class="flex items-center"
   >
     <span
-      class="text-sm font-bold mr-2"
+      class="mr-2 text-sm font-bold"
     >
       Sort by
     </span>
@@ -14,7 +14,7 @@ exports[`SortDropdown Component renders correctly with default props 1`] = `
       class="relative"
     >
       <select
-        class="appearance-none bg-white border border-gray-300 text-gray-700 py-1 px-3 pr-8 rounded leading-tight focus:outline-none focus:border-blue-500"
+        class="appearance-none rounded border border-gray-300 bg-white px-3 py-1 pr-8 leading-tight text-gray-700 focus:border-blue-500 focus:outline-none"
       >
         <option
           value="high-low"
@@ -31,7 +31,7 @@ exports[`SortDropdown Component renders correctly with default props 1`] = `
         class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700"
       >
         <svg
-          class="fill-current h-4 w-4"
+          class="h-4 w-4 fill-current"
           viewBox="0 0 20 20"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -51,7 +51,7 @@ exports[`SortDropdown Component renders with low-high selected correctly 1`] = `
     class="flex items-center"
   >
     <span
-      class="text-sm font-bold mr-2"
+      class="mr-2 text-sm font-bold"
     >
       Sort by
     </span>
@@ -59,7 +59,7 @@ exports[`SortDropdown Component renders with low-high selected correctly 1`] = `
       class="relative"
     >
       <select
-        class="appearance-none bg-white border border-gray-300 text-gray-700 py-1 px-3 pr-8 rounded leading-tight focus:outline-none focus:border-blue-500"
+        class="appearance-none rounded border border-gray-300 bg-white px-3 py-1 pr-8 leading-tight text-gray-700 focus:border-blue-500 focus:outline-none"
       >
         <option
           value="high-low"
@@ -76,7 +76,7 @@ exports[`SortDropdown Component renders with low-high selected correctly 1`] = `
         class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700"
       >
         <svg
-          class="fill-current h-4 w-4"
+          class="h-4 w-4 fill-current"
           viewBox="0 0 20 20"
           xmlns="http://www.w3.org/2000/svg"
         >

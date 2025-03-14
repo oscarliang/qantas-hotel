@@ -69,6 +69,18 @@ Run tests with coverage report:
 npm run test:coverage
 ```
 
+Run the lint with:
+
+```bash
+npm run lint
+```
+
+Run the format code with:
+
+```bash
+npm run format
+```
+
 ## Deployment
 
 The application can be deployed to any platform that supports Next.js, such as Vercel, Netlify, or AWS Amplify.
@@ -88,5 +100,5 @@ npm run dev
 To start the production server:
 
 ```bash
-npm start
+npm run start
 ```

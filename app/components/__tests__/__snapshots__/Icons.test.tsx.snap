@@ -3,7 +3,7 @@
 exports[`Icons Component CircleIcon renders empty circle correctly 1`] = `
 <div>
   <svg
-    class="inline-block mx-0.5"
+    class="mx-0.5 inline-block"
     fill="none"
     height="16"
     stroke="#fef08a"
@@ -24,7 +24,7 @@ exports[`Icons Component CircleIcon renders empty circle correctly 1`] = `
 exports[`Icons Component CircleIcon renders filled circle correctly 1`] = `
 <div>
   <svg
-    class="inline-block mx-0.5"
+    class="mx-0.5 inline-block"
     fill="#fef08a"
     height="16"
     stroke="#fef08a"
@@ -45,7 +45,7 @@ exports[`Icons Component CircleIcon renders filled circle correctly 1`] = `
 exports[`Icons Component StarIcon renders empty star correctly 1`] = `
 <div>
   <svg
-    class="inline-block mx-0.5"
+    class="mx-0.5 inline-block"
     fill="none"
     height="16"
     stroke="#fef08a"
@@ -64,7 +64,7 @@ exports[`Icons Component StarIcon renders empty star correctly 1`] = `
 exports[`Icons Component StarIcon renders filled star correctly 1`] = `
 <div>
   <svg
-    class="inline-block mx-0.5"
+    class="mx-0.5 inline-block"
     fill="#fef08a"
     height="16"
     stroke="#fef08a"

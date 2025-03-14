@@ -3,7 +3,7 @@
 exports[`HotelCard Component renders hotel details correctly 1`] = `
 <div>
   <div
-    class="flex flex-col sm:flex-row  border-b border-gray-200 py-4"
+    class="flex flex-col border-b  border-gray-200 py-4 sm:flex-row"
   >
     <div
       class="relative"
@@ -17,16 +17,16 @@ exports[`HotelCard Component renders hotel details correctly 1`] = `
       />
     </div>
     <div
-      class="flex-1 px-2 sm:px-4 py-2"
+      class="flex-1 px-2 py-2 sm:px-4"
     >
       <div
-        class="flex flex-col sm:flex-row justify-between"
+        class="flex flex-col justify-between sm:flex-row"
       >
         <div
           class="relative min-h-32 sm:min-h-28"
         >
           <div
-            class="flex flex-col sm:flex-row justify-content align-middle"
+            class="justify-content flex flex-col align-middle sm:flex-row"
           >
             <h2
               class="text-lg font-bold"
@@ -34,7 +34,7 @@ exports[`HotelCard Component renders hotel details correctly 1`] = `
               Test Hotel
             </h2>
             <div
-              class="flex my-1 sm:mt-2 sm:ml-2"
+              class="my-1 flex sm:ml-2 sm:mt-2"
             >
               <span
                 data-testid="star-icon-filled"
@@ -64,23 +64,23 @@ exports[`HotelCard Component renders hotel details correctly 1`] = `
             </div>
           </div>
           <address
-            class="text-sm text-gray-600 not-italic"
+            class="text-sm not-italic text-gray-600"
           >
             123 Test St, Test City
           </address>
           <p
-            class="text-red-600 text-sm mt-2 font-medium underline"
+            class="mt-2 text-sm font-medium text-red-600 underline"
           >
             Deluxe Room
           </p>
           <p
-            class="text-sm text-green-600 mt-2 absolute bottom-0"
+            class="absolute bottom-0 mt-2 text-sm text-green-600"
           >
             Free cancellation
           </p>
         </div>
         <div
-          class="text-right mt-4 sm:mt-0"
+          class="mt-4 text-right sm:mt-0"
         >
           <div
             class="text-sm text-gray-600"
@@ -88,7 +88,7 @@ exports[`HotelCard Component renders hotel details correctly 1`] = `
             1 night total (AUD)
           </div>
           <div
-            class="text-2xl font-bold mt-1"
+            class="mt-1 text-2xl font-bold"
           >
             <span
               class="text-lg"
@@ -98,7 +98,7 @@ exports[`HotelCard Component renders hotel details correctly 1`] = `
             200
           </div>
           <div
-            class="text-red-600 text-sm"
+            class="text-sm text-red-600"
           >
             Save $
             20
