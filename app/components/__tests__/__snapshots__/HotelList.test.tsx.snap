@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HotelList Component renders empty state when no hotels are provided 1`] = `
+<div>
+  <div
+    class="text-center py-8"
+  >
+    No hotels found.
+  </div>
+</div>
+`;
+
+exports[`HotelList Component renders hotel count correctly 1`] = `
+<div>
+  <div>
+    <div
+      class="flex justify-between items-center mb-4"
+    >
+      <div
+        class="text-sm"
+      >
+        <span
+          class="font-bold"
+        >
+          2
+        </span>
+        <span
+          class="text-gray-600 italic"
+        >
+           hotels in 
+        </span>
+        <span
+          class="font-bold"
+        >
+          Sydney
+        </span>
+        .
+      </div>
+      <div
+        data-testid="sort-dropdown"
+      >
+        <select
+          data-testid="sort-select"
+        >
+          <option
+            value="high-low"
+          >
+            Price high-low
+          </option>
+          <option
+            value="low-high"
+          >
+            Price low-high
+          </option>
+        </select>
+      </div>
+    </div>
+    <div
+      class="hotel-list"
+    >
+      <div
+        data-testid="hotel-card"
+      >
+        Expensive Hotel
+      </div>
+      <div
+        data-testid="hotel-card"
+      >
+        Cheap Hotel
+      </div>
+    </div>
+  </div>
+</div>
+`;

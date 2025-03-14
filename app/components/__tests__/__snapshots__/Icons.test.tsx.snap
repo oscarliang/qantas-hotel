@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Icons Component CircleIcon renders empty circle correctly 1`] = `
+<div>
+  <svg
+    class="inline-block mx-0.5"
+    fill="none"
+    height="16"
+    stroke="#fef08a"
+    stroke-width="1"
+    viewBox="0 0 24 24"
+    width="16"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <circle
+      cx="12"
+      cy="12"
+      r="8"
+    />
+  </svg>
+</div>
+`;
+
+exports[`Icons Component CircleIcon renders filled circle correctly 1`] = `
+<div>
+  <svg
+    class="inline-block mx-0.5"
+    fill="#fef08a"
+    height="16"
+    stroke="#fef08a"
+    stroke-width="1"
+    viewBox="0 0 24 24"
+    width="16"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <circle
+      cx="12"
+      cy="12"
+      r="8"
+    />
+  </svg>
+</div>
+`;
+
+exports[`Icons Component StarIcon renders empty star correctly 1`] = `
+<div>
+  <svg
+    class="inline-block mx-0.5"
+    fill="none"
+    height="16"
+    stroke="#fef08a"
+    stroke-width="1"
+    viewBox="0 0 24 24"
+    width="16"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+    />
+  </svg>
+</div>
+`;
+
+exports[`Icons Component StarIcon renders filled star correctly 1`] = `
+<div>
+  <svg
+    class="inline-block mx-0.5"
+    fill="#fef08a"
+    height="16"
+    stroke="#fef08a"
+    stroke-width="1"
+    viewBox="0 0 24 24"
+    width="16"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+    />
+  </svg>
+</div>
+`;
