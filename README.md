@@ -60,7 +60,7 @@ The application includes comprehensive tests for all components:
 Run the tests with:
 
 ```bash
-npm test
+npm run test
 ```
 
 Run tests with coverage report:
